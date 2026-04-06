@@ -4,72 +4,29 @@
 Sistema para compra e venda de ingressos de jogos locais com QR Code e validação em entrada.
 
 ## 🚀 Funcionalidades
+- Cadastro e login de usuários
+- Gerenciamento de jogos (organizadores)
+- Compra e venda de ingressos
+- Validação de ingressos com QR Code
 
-### 🔐 Autenticação
-
-* Cadastro e login
-* JWT com roles:
-
-  * USER
-  * ORGANIZER
-
-### ⚽ Gestão de Jogos
-
-* Criar jogo:
-
-  * Time mandante
-  * Time visitante
-  * Data e horário
-  * Estádio
-* Editar jogo
-* Listar jogos disponíveis
-
-### 🏟️ Ingressos
-
-* Tipos de ingresso:
-
-  * Arquibancada
-  * Cadeira
-  * VIP
-* Definir:
-
-  * Preço
-  * Quantidade
-  * Setor
-
-### 🛒 Compra de Ingressos
-
-* Selecionar jogo
-* Escolher setor
-* Definir quantidade
-* Adicionar ao carrinho
-* Finalizar compra
-
-### 🎫 Ingresso Digital
-
-Cada ingresso terá:
-
-* ID único
-* QR Code
-* Dados:
-
-  * Jogo
-  * Setor
-  * Nome do comprador
-* Status:
-
-  * ATIVO
-  * USADO
-  * CANCELADO
-
-### 📲 Validação (Entrada no Estádio)
-
-* Tela de scanner (celular do organizador)
-* Leitura do QR Code
 ---
 
 ## 🧠 Processo de Design (UI/UX)
-👉 Veja o case completo: /docs/case-study.md
+
+O desenvolvimento da interface deste sistema seguiu uma abordagem centrada no usuário, com foco em simplicidade, usabilidade e eficiência no fluxo.
+
+Etapas do processo:
+
+- **Wireframes**: definição da estrutura e fluxo das telas, priorizando organização e redução de etapas  
+- **Interface (UI)**: construção do design visual com foco em clareza, acessibilidade e experiência mobile-first  
+- **Protótipo**: simulação interativa para validação do fluxo e navegação do usuário  
+
+📂 Acesse cada etapa:
+
+- ✏️ Wireframes: [Wireframes](./docs/wireframe/wireframe.md)  
+- 🎨 Interface: [Interface](./docs/interface/interface.md)  
+- 🔗 Protótipo: [Protótipo]()  
+
 
 ## 🛠️ Tecnologias
 - React + Vite
