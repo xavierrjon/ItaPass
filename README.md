@@ -1,13 +1,18 @@
 # 🎟️ ItaPass - Sistema de Venda de Ingressos de Futebol Local
 
 ## 📌 Sobre o projeto
-Sistema para compra e venda de ingressos de jogos locais com QR Code e validação em entrada.
+Sistema para compra e venda de ingressos de partidas de futebol locais. O sistema será desenvolvido desde a etapa de design (UI/UX) até a implementação, utilizando tecnologias modernas para garantir uma experiência fluida e eficiente para os usuários.
+
+## 👥 Tipos de Usuários
+- **Organizador**: responsável por gerenciar os jogos e validar ingressos
+- **Torcedor**: usuário que compra ingressos para assistir aos jogos
 
 ## 🚀 Funcionalidades
 - Cadastro e login de usuários
-- Gerenciamento de jogos (organizadores)
+- Gerenciamento de jogos (organizador)
+- Análise métricas de vendas e público simples (organizador)
 - Compra e venda de ingressos
-- Validação de ingressos com QR Code
+- Validação de ingressos com QR Code (organizador)
 
 ---
 
@@ -23,16 +28,12 @@ Etapas do processo:
 
 📂 Acesse cada etapa:
 
-- ✏️ Wireframes: [Wireframes](./docs/wireframe/wireframe.md)  
-- 🎨 Interface: [Interface](./docs/interface/interface.md)  
-- 🔗 Protótipo: [Protótipo]()  
+- ✏️ Wireframes: (Em breve)
+- 🎨 Interface: (Em breve)
+- 🔗 Protótipo: (Em breve)
 
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias de Desenvolvimento (Em breve)
 - React + Vite
 - NestJS
 - PostgreSQL
-
-## 📸 Preview
-
-## ▶️ Como rodar
